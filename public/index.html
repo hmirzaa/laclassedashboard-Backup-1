@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab|Roboto:300,400,500,700"
+      rel="stylesheet"
+    />
+    <title>La Classe</title>
+    <meta
+      name="description"
+      content="laclasse.ma vous propose , le meilleur moyen pour entrer en interaction avec vos étudiants en temps réel comme dans une séance de cours à travers un outil instantané et interactif."
+    />
+    <meta
+      name="keywords"
+      content="maroc, education, online, school"
+    />
+    <meta name="author" content="laclasse.ma" />
+<!-- <script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "e65317db-df0f-4fe6-a51b-92b77351b1dd",
+      notifyButton: {
+        enable: true,
+      },
+      subdomainName: "laclasse",
+    });
+  });
+
+  OneSignal.push(function() {
+    OneSignal.on('notificationDisplay', function(event) {
+      // console.warn(event)
+      
+    });
+  });
+  
+  OneSignal.push(function() {       
+    OneSignal.getUserId().then(function(userId) {
+      window.deviceId = userId;  
+    });
+  });
+</script> -->
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+    <script>
+    var OneSignal = OneSignal || [];
+    OneSignal.push(function() {
+    OneSignal.init({
+      appId: "e65317db-df0f-4fe6-a51b-92b77351b1dd",
+      notifyButton: {
+        enable: true,
+      },
+      subdomainName: "laclasse",
+    });
+  }, );
+
+  OneSignal.push(function() {       
+    OneSignal.getUserId().then(function(userId) {
+      window.deviceId = userId;  
+    });
+  });
+
+  // OneSignal.push(function() {
+  //   OneSignal.on('notificationDisplay', function(event) {
+  //     console.log(event);
+  //   });
+  // });
+
+
+  // console.log('www', window.OneSignal)
+    </script>
+    </body>
+</html>

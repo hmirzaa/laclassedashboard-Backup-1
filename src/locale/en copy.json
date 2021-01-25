@@ -1,0 +1,13 @@
+{
+  "translations" : {
+    "sign out": "Sign out",
+    "notifications": "Notifications",
+    "notifications empty": "No notifications",
+    "agenda": "Calendar",
+    "agenda empty": "Calendar is empty!",
+    "agenda see all": "See all",
+
+    "home alert message": "If you are having problems while using our platform, please report it to contact@laclasse.ma.",
+    "welcome": "Welcome",
+  }
+}

@@ -1,0 +1,11 @@
+.allSides
+{
+  width:80px;
+  height:50px;
+  border: solid 2px #555;
+  background-color: rgb(184, 184, 179);
+  box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+  /* -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+  -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6); */
+}
